@@ -1,10 +1,4 @@
 {
-  "name": "Tejash Bariya",
-  "initials": "TB",
-  "role": "Full-Stack Developer",
-  "tagline": "I write code that ships.",
-  "email": "tejashbariya@gmail.com",
-  "formEndpoint": "https://formspree.io/f/xaqpalbv",
   "socials": [
     {
       "label": "GitHub",
@@ -22,25 +16,78 @@
       "display": "leetcode.com/TejasBariya"
     }
   ],
-  "stack": ["JavaScript", "Node.js", "Express.js", "AngularJS", "MongoDB", "HTML5", "CSS3", "Git", "REST APIs", "BCrypt", "Mongoose"],
-  "focus": ["Full-Stack Development", "SPA Architecture", "REST API Design", "Auth & Session Flows"],
-  "learning": ["React", "TypeScript", "Docker", "System Design"],
-  "terminal": [
-    { "cmd": "whoami", "out": "tejash-bariya", "hi": true },
-    { "cmd": "cat stack.txt", "out": "JS · Node.js · AngularJS · MongoDB", "hi": false },
-    { "cmd": "echo $approach", "out": "build → test → ship → repeat", "hi": true },
-    { "cmd": "git log --oneline", "out": "4 repos · always building", "hi": false }
+  "stack": [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "AngularJS",
+    "MongoDB",
+    "HTML5",
+    "CSS3",
+    "Git",
+    "REST APIs",
+    "BCrypt",
+    "Mongoose"
   ],
+  "name": "Tejash Bariya",
+  "tagline": "I write code that ships.",
+  "initials": "TB",
+  "role": "Full-Stack Developer",
+  "focus": [
+    "Full-Stack Development",
+    "SPA Architecture",
+    "REST API Design",
+    "Auth & Session Flows"
+  ],
+  "formEndpoint": "https://formspree.io/f/xaqpalbv",
   "projects": [
     {
+      "fork": false,
       "id": 1,
-      "title": "Digital Wallet System",
-      "desc": "Full-stack banking simulation. Register, receive 1000 coins, send money peer-to-peer, and track chronological transactions. BCrypt hashing, localStorage sessions, overdraft & self-transfer guards.",
-      "tags": ["Node.js", "Express.js", "MongoDB", "AngularJS", "BCrypt"],
-      "cat": "fullstack",
-      "github": "https://github.com/tejasbariya/digital-wallet-system",
-      "live": "",
-      "fork": false
+      "title": "MTalk",
+      "desc": "MTalk is the ultimate social tracking, discussion, and community platform exclusively for manhwa and manhua fans. It combines the best elements of platforms like ComicK.io (reviews, karma), MyAnimeList (tracking), Asura Scans (updates), Discord (global chat), and Instagram (social feed) into ONE beautiful app.\n\nNote: MTalk is STRICTLY NOT a reader app. It does not host chapters.",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "MongoDB",
+        "JWT",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "cat": "FULLSTACK, MERN ",
+      "github": "https://github.com/tejasbariya/mtalk-client",
+      "live": "https://mtalk-client.vercel.app"
     }
+  ],
+  "terminal": [
+    {
+      "cmd": "whoami",
+      "out": "tejash-bariya",
+      "hi": true
+    },
+    {
+      "cmd": "cat stack.txt",
+      "out": "JS · Node.js · AngularJS · MongoDB",
+      "hi": false
+    },
+    {
+      "cmd": "echo $approach",
+      "out": "build → test → ship → repeat",
+      "hi": true
+    },
+    {
+      "cmd": "git log --oneline",
+      "out": "4 repos · always building",
+      "hi": false
+    }
+  ],
+  "email": "tejashbariya@gmail.com",
+  "learning": [
+    "React",
+    "TypeScript",
+    "Docker",
+    "System Design"
   ]
 }
