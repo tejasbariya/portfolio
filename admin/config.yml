@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main # Make sure this matches your GitHub default branch (main or master)
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio Content"
+    files:
+      - label: "Main Data"
+        name: "data"
+        file: "data/data.json" # We are telling Decap to edit your JSON file
+        description: "Edit all your portfolio information here"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Initials", name: "initials", widget: "string" }
+          - { label: "Role", name: "role", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Form Endpoint", name: "formEndpoint", widget: "string" }
+          
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Display Text", name: "display", widget: "string" }
+              
+          - { label: "Tech Stack", name: "stack", widget: "list" }
+          - { label: "Focus Areas", name: "focus", widget: "list" }
+          - { label: "Currently Learning", name: "learning", widget: "list" }
+          
+          - label: "Terminal Commands"
+            name: "terminal"
+            widget: "list"
+            fields:
+              - { label: "Command", name: "cmd", widget: "string" }
+              - { label: "Output", name: "out", widget: "string" }
+              - { label: "Highlight Output?", name: "hi", widget: "boolean", default: false }
+
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Project ID", name: "id", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Tags", name: "tags", widget: "list" }
+              - { label: "Category", name: "cat", widget: "string" }
+              - { label: "GitHub Link", name: "github", widget: "string", required: false }
+              - { label: "Live Link", name: "live", widget: "string", required: false }
+              - { label: "Is this a fork?", name: "fork", widget: "boolean", default: false }

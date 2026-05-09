@@ -1,5 +1,8 @@
-(function () {
+(async function () {
   'use strict';
+
+  const response = await fetch('data/data.json');
+  const DATA = await response.json();
 
   const curDot  = document.getElementById('curDot');
   const curRing = document.getElementById('curRing');
