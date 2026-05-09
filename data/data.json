@@ -72,8 +72,22 @@
       ],
       "cat": "FULLSTACK",
       "github": "https://github.com/tejasbariya/habit-tracker/tree/main/habit-tracker",
-      "desc": "I built Habit Journal because standard habit trackers felt too rigid. I wanted a system that didn't just track \"Done/Not Done,\" but visualized intensity and consistency over time—similar to the GitHub contribution graph but for personal life.\n\nThis is a full-stack application that focuses heavily on Data Visualization and User Experience. It features a custom-built \"Yearly Vitality\" engine that calculates a daily productivity score based on task volume and duration, rendering it as a color-graded heatmap.\n\nIt also includes a hidden Command Center for administrators to manage the application with granular control.",
+      "desc": "This is a full-stack application that focuses heavily on Data Visualization and User Experience. It features a custom-built \"Yearly Vitality\" engine that calculates a daily productivity score based on task volume and duration, rendering it as a color-graded heatmap.\n\nIt also includes a hidden Command Center for administrators to manage the application with granular control.",
       "live": "https://habit-tracker-client-rho.vercel.app/"
+    },
+    {
+      "fork": false,
+      "id": 3,
+      "title": "Timetable-Master",
+      "desc": "An intelligent, AI-powered class scheduling solution for higher ed. It tackles complex challenges like limited infrastructure, faculty constraints, and dynamic curricula. This tool creates clash-free, optimized timetables for a more efficient and harmonious academic environment.",
+      "tags": [
+        "React.js",
+        "Django",
+        "Python",
+        "Sqlite"
+      ],
+      "cat": "React.js",
+      "github": "https://github.com/tejasbariya/TimetableMaster"
     }
   ],
   "terminal": [
