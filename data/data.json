@@ -24,10 +24,15 @@
     "MongoDB",
     "HTML5",
     "CSS3",
+    "Tailwind CSS",
     "Git",
     "REST APIs",
     "BCrypt",
-    "Mongoose"
+    "Mongoose",
+    "JWT",
+    "Vite",
+    "Framer Motion",
+    "Socket.io"
   ],
   "name": "Tejash Bariya",
   "tagline": "I write code that ships.",
@@ -35,9 +40,10 @@
   "role": "Full-Stack Developer",
   "focus": [
     "Full-Stack Development",
-    "SPA Architecture",
     "REST API Design",
-    "Auth & Session Flows"
+    "Auth & Session Flows",
+    "Rate Limiting",
+    "Sockets"
   ],
   "formEndpoint": "https://formspree.io/f/xaqpalbv",
   "projects": [
@@ -54,7 +60,8 @@
         "JWT",
         "Vite",
         "Tailwind CSS",
-        "Framer Motion"
+        "Framer Motion",
+        "Socket.io"
       ],
       "cat": "FULLSTACK",
       "github": "https://github.com/tejasbariya/mtalk-client",
@@ -130,7 +137,7 @@
   "email": "tejashbariya@gmail.com",
   "learning": [
     "React",
-    "TypeScript",
+    "Cloud Computing",
     "Docker",
     "System Design"
   ]
