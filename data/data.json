@@ -88,6 +88,21 @@
       ],
       "cat": "React.js",
       "github": "https://github.com/tejasbariya/TimetableMaster"
+    },
+    {
+      "fork": false,
+      "id": 4,
+      "title": "Music SPA",
+      "desc": "This project is a modern Single Page Application (SPA) built to stream, upload, and search for music. It was migrated from a static AngularJS website into a full-stack application featuring a customized Dark Glassmorphism user interface.",
+      "tags": [
+        "AngularJS",
+        "MongoDB",
+        "Sqlite",
+        "Node.js",
+        "Express.js"
+      ],
+      "cat": "AngularJS",
+      "github": "https://github.com/tejasbariya/music-spa"
     }
   ],
   "terminal": [
