@@ -34,7 +34,7 @@
     "Framer Motion",
     "Socket.io"
   ],
-  "name": "Tejash Bariya",
+  "name": "Tejas Bariya",
   "tagline": "I write code that ships.",
   "initials": "TB",
   "role": "Full-Stack Developer",
@@ -115,12 +115,12 @@
   "terminal": [
     {
       "cmd": "whoami",
-      "out": "tejash-bariya",
+      "out": "tejas-bariya",
       "hi": true
     },
     {
       "cmd": "cat stack.txt",
-      "out": "JS · Node.js · AngularJS · MongoDB",
+      "out": "JS · React.js · Express.js · Node.js · MongoDB",
       "hi": false
     },
     {
@@ -134,7 +134,7 @@
       "hi": false
     }
   ],
-  "email": "tejashbariya@gmail.com",
+  "email": "tejasbariya@gmail.com",
   "learning": [
     "React",
     "Cloud Computing",
