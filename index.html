@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tejash Bariya — Full-Stack Developer</title>
-  <meta name="description" content="Tejash Bariya — full-stack developer. Clean logic, fast execution, real results." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <title id="site-title"></title>
+  <meta id="site-desc" name="description" content="" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -17,7 +17,7 @@
 <div class="cur-ring" id="curRing"></div>
 
 <nav class="nav" id="mainNav">
-  <div class="logo">Tejash<span class="dot">.</span></div>
+  <div class="logo"><span id="nav-logo-text"></span><span class="dot">.</span></div>
   <ul class="nav-links" id="navLinks">
     <li><a href="#about"    data-section="about">About</a></li>
     <li><a href="#projects" data-section="projects">Projects</a></li>
@@ -40,7 +40,7 @@
   <a href="#contact"  class="mob-link">Contact</a>
   <div class="mob-socials">
     <a href="https://github.com/tejasbariya"             target="_blank" rel="noopener">GitHub</a>
-    <a href="https://www.linkedin.com/in/tejash-bariya/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/tejas-bariya/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://leetcode.com/u/TejasBariya/"        target="_blank" rel="noopener">LeetCode</a>
   </div>
 </div>
@@ -54,24 +54,14 @@
     <div class="wrap" style="width:100%;position:relative;">
       <div class="hero-inner">
 
-        <div class="hero-eyebrow">
-          Full-Stack Developer
-          <span class="sep">/</span>
-          Builder
-          <span class="sep">/</span>
-          Problem Solver
-        </div>
+        <div class="hero-eyebrow" id="hero-eyebrow"></div>
 
         <h1 class="hero-name">
-          <span class="filled">Tejash</span>
-          <span class="outline"><span class="gold-italic">Bariya</span></span>
+          <span class="filled" id="hero-name-first"></span>
+          <span class="outline"><span class="gold-italic" id="hero-name-last"></span></span>
         </h1>
 
-        <p class="hero-desc">
-          I write code that <strong>ships</strong>.<br />
-          No fluff, no overengineering —<br />
-          clean logic, fast execution, real results.
-        </p>
+        <p class="hero-desc" id="hero-desc"></p>
 
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View My Work →</a>
@@ -86,7 +76,7 @@
           <span class="tb r"></span>
           <span class="tb y"></span>
           <span class="tb g"></span>
-          <span class="term-file">tejash ~ portfolio</span>
+          <span class="term-file">tejas ~ portfolio</span>
         </div>
         <div class="term-body" id="termBody"></div>
       </div>
@@ -100,12 +90,7 @@
         <h2 class="sec-title">Craft over <em>complexity</em></h2>
       </div>
       <div class="about-wrap">
-        <div class="about-body reveal">
-          <p>I don't overthink. I build, test, break, fix, and ship — in that order, as fast as possible.</p>
-          <p>My approach is simple: understand the problem, cut the noise, write clean code, move fast. I'm not interested in patterns that look elegant in talks but fall apart under real load. I care about software that <em>actually works in production</em>.</p>
-          <p>I explore new tools the way most people read docs — by immediately building something real with them. AngularJS SPAs, full-stack wallet systems, AI scheduling tools — if it's a real problem, I'll build a real solution for it.</p>
-          <p>Currently levelling up on full-stack architecture and systems thinking. If there's a faster, cleaner way to build something — I'll find it.</p>
-        </div>
+        <div class="about-body reveal" id="about-body"></div>
         <div class="info-stack reveal" id="infoCards"></div>
       </div>
     </div>
@@ -136,16 +121,13 @@
       <div class="contact-wrap">
 
         <div class="reveal">
-          <p class="contact-intro">
-            Have a real problem to solve or something interesting to build?
-            Skip the pleasantries. Reach out — I respond fast and get to the point.
-          </p>
-          <a href="mailto:tejashbariya@gmail.com" class="contact-email-link">
+          <p class="contact-intro" id="contact-intro"></p>
+          <a href="" class="contact-email-link" id="contact-email-link">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
               <polyline points="22,6 12,13 2,6"/>
             </svg>
-            tejashbariya@gmail.com
+            <span id="contact-email-text"></span>
           </a>
           <div class="social-list">
             <a href="https://github.com/tejasbariya" target="_blank" rel="noopener" class="social-link">
@@ -153,9 +135,9 @@
               <span class="social-name">github.com/tejasbariya</span>
               <span class="social-arr">→</span>
             </a>
-            <a href="https://www.linkedin.com/in/tejash-bariya/" target="_blank" rel="noopener" class="social-link">
+            <a href="https://www.linkedin.com/in/tejas-bariya/" target="_blank" rel="noopener" class="social-link">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-              <span class="social-name">linkedin.com/in/tejash-bariya</span>
+              <span class="social-name">linkedin.com/in/tejas-bariya</span>
               <span class="social-arr">→</span>
             </a>
             <a href="https://leetcode.com/u/TejasBariya/" target="_blank" rel="noopener" class="social-link">
@@ -196,10 +178,10 @@
 <footer>
   <div class="wrap">
     <div class="footer-inner">
-      <div class="footer-left"><strong>Tejash Bariya</strong> &nbsp;·&nbsp; Built with intent. &copy; <span id="footYear"></span></div>
+      <div class="footer-left"><strong id="footer-name"></strong> &nbsp;·&nbsp; <span id="footer-tagline"></span> &copy; <span id="footYear"></span></div>
       <div class="footer-right">
         <a href="https://github.com/tejasbariya"             target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/tejash-bariya/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/tejas-bariya/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://leetcode.com/u/TejasBariya/"        target="_blank" rel="noopener">LeetCode</a>
       </div>
     </div>

@@ -20,6 +20,26 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Form Endpoint", name: "formEndpoint", widget: "string" }
+          - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string" }
+          - { label: "Hero Description", name: "heroDesc", widget: "text" }
+          - { label: "About Body", name: "aboutBody", widget: "markdown" }
+          - { label: "Contact Intro", name: "contactIntro", widget: "text" }
+
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Greeting", name: "greeting", widget: "string" }
+              - { label: "Main Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Hero Image", name: "image", widget: "image", required: false }
+
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "About Me Text", name: "bio", widget: "text" }
+              - { label: "Resume PDF", name: "resume", widget: "file", required: false }
           
           - label: "Social Links"
             name: "socials"

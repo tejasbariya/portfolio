@@ -46,6 +46,10 @@
     "Sockets"
   ],
   "formEndpoint": "https://formspree.io/f/xaqpalbv",
+  "heroEyebrow": "Full-Stack Developer <span class=\"sep\">/</span> Builder <span class=\"sep\">/</span> Problem Solver",
+  "heroDesc": "I write code that <strong>ships</strong>.<br />No fluff, no overengineering —<br />clean logic, fast execution, real results.",
+  "aboutBody": "<p>I don't overthink. I build, test, break, fix, and ship — in that order, as fast as possible.</p><p>My approach is simple: understand the problem, cut the noise, write clean code, move fast. I'm not interested in patterns that look elegant in talks but fall apart under real load. I care about software that <em>actually works in production</em>.</p><p>I explore new tools the way most people read docs — by immediately building something real with them. AngularJS SPAs, full-stack wallet systems, AI scheduling tools — if it's a real problem, I'll build a real solution for it.</p><p>Currently levelling up on full-stack architecture and systems thinking. If there's a faster, cleaner way to build something — I'll find it.</p>",
+  "contactIntro": "Have a real problem to solve or something interesting to build?\nSkip the pleasantries. Reach out — I respond fast and get to the point.",
   "projects": [
     {
       "fork": false,
